@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="Ejemplo09" Version="11000" InternalType="Console">
+<CodeLite_Project Name="Ejercicio13" Version="11000" InternalType="Console">
+  <VirtualDirectory Name="Header Files">
+    <File Name="Header Files/Persona.hpp"/>
+  </VirtualDirectory>
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -93,6 +96,7 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="Persona.cpp"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
   <Dependencies Name="Debug"/>

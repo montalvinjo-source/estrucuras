@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="Ejemplo09" Version="11000" InternalType="Console">
+<CodeLite_Project Name="Pilas" Version="11000" InternalType="Console">
+  <VirtualDirectory Name="Header Files">
+    <File Name="Header Files/Pila.hpp"/>
+    <File Name="Header Files/NodoPila.hpp"/>
+  </VirtualDirectory>
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -93,6 +97,8 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="Pila.cpp"/>
+    <File Name="NodoPila.cpp"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
   <Dependencies Name="Debug"/>
